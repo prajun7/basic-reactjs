@@ -4,12 +4,35 @@ import { v4 } from 'uuid';
 function Todo(){
     const [task, setTask] = useState("");
     const [allTask,setAllTask] = useState([]);
+    const[completeTask, setCompleteTask] = useState(false);
 
     function addTask(e){
        // e.preventDefault(); No need
+       const taskInput = {
+           name : task,
+           complete : completeTask
+       }
         setAllTask([...allTask,taskInput]);
         setTask("");
-    }l
+    }
+
+    const toggleComplete = () => {
+        setCompleteTask(prevStatus => !prevStatus);
+    }
+
+    let styleTask = "";
+    // completeTask ? styleTask = "line-through" : "";
+    if (completeTask){
+        styleTask = "line-through"
+    }else{
+        styleTask = ""
+    }
+
+    const style = {
+        textDecoration: styleTask
+    }
+
+
 
     return(
         <>
@@ -27,7 +50,7 @@ function Todo(){
 
             {allTask.map(taskItem => (
                 <div key = {v4()}>
-                    <>{taskItem.name}</>
+                    <p onClick ={toggleComplete} style={style}>{taskItem.name}</p>
                 </div>
             ))} 
         </>
