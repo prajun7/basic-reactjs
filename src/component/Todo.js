@@ -7,10 +7,6 @@ function Todo(){
 
     function addTask(e){
        // e.preventDefault(); No need
-       const taskInput = {
-           name : task,
-           complete : false
-       }
         setAllTask([...allTask,taskInput]);
         setTask("");
     }l
