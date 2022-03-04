@@ -1,3 +1,7 @@
+# REACT Cheatsheet for me to use in the future
+- Added a counter, using useState hook
+- Added todo(working on it)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
