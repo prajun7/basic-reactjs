@@ -5,8 +5,9 @@ import TodoApp from './component/TodoApp';
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <h1>Counter</h1>
       <Counter />
+      <h1>Todo</h1>
       <TodoApp />
 
     </div>
