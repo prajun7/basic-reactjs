@@ -1,6 +1,6 @@
 # REACT Cheatsheet for me to use in the future
 - Added a counter, using useState hook
-- Added todo(working on it)
+- Added todo, where the user can store the todo inside their local storage
 
 # -------------------------------------------------------------------
 
