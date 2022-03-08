@@ -7,6 +7,7 @@ I am using hooks like
 - useState
 - useEffect
 - useRef
+Check comments in the code for explanation
 
 # -------------------------------------------------------------------
 
