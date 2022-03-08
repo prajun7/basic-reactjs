@@ -10,7 +10,7 @@ I am using hooks like
 
 Check comments in the code for explanation
 
-# -------------------------------------------------------------------
+# ------------------------------------------------------------
 
 ## Getting Started with Create React App
 
