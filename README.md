@@ -8,6 +8,8 @@ I am using hooks like
 - useEffect
 - useRef
 
+<img width="430" alt="Screen Shot 2022-03-07 at 7 01 42 PM" src="https://user-images.githubusercontent.com/67757251/157157305-2a412dfa-64da-4b8a-8516-85288d0bd7bc.png">
+
 Check comments in the code for explanation
 
 # ------------------------------------------------------------
